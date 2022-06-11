@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "betterechogems",
+  "id": "betterechoshards",
   "version": "${version}",
 
-  "name": "Better Echo Gems",
-  "description": "Aims to expand the uses for echo gems!",
+  "name": "Better Echo Shards",
+  "description": "Aims to expand the uses for echo shards!",
   "authors": [
     "ianm1647"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/ianm1647/better-echo-shards"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/betterechogems/icon.png",
+  "icon": "assets/betterechoshards/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.ianm1647.betterechogems.BetterEchoGems"
+      "com.ianm1647.betterechoshards.BetterEchoShards"
     ]
   },
 

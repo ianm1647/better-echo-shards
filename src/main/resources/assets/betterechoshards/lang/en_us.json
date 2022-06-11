@@ -1,0 +1,15 @@
+{
+  "item.betterechoshards.echorite_ingot": "Echorite Ingot",
+
+  "item.betterechoshards.echorite_sword": "Echorite Sword",
+  "item.betterechoshards.echorite_shovel": "Echorite Shovel",
+  "item.betterechoshards.echorite_pickaxe": "Echorite Pickaxe",
+  "item.betterechoshards.echorite_axe": "Echorite Axe",
+  "item.betterechoshards.echorite_hoe": "Echorite Hoe",
+  "item.betterechoshards.echorite_head": "Echorite Helmet",
+  "item.betterechoshards.echorite_chest": "Echorite Chestplate",
+  "item.betterechoshards.echorite_legs": "Echorite Leggings",
+  "item.betterechoshards.echorite_feet": "Echorite Boots",
+
+  "itemGroup.betterechoshards.group": "Better Echo Shards"
+}
