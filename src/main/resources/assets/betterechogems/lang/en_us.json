@@ -6,6 +6,10 @@
   "item.betterechogems.echorite_pickaxe": "Echorite Pickaxe",
   "item.betterechogems.echorite_axe": "Echorite Axe",
   "item.betterechogems.echorite_hoe": "Echorite Hoe",
+  "item.betterechogems.echorite_head": "Echorite Helmet",
+  "item.betterechogems.echorite_chest": "Echorite Chestplate",
+  "item.betterechogems.echorite_legs": "Echorite Leggings",
+  "item.betterechogems.echorite_feet": "Echorite Boots",
 
   "itemGroup.betterechogems.group": "Better Echo Gems"
 }

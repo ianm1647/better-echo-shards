@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "betterechogems:echorite_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "result": {
+    "item": "betterechogems:echorite_legs"
+  }
+}
