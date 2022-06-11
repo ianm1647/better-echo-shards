@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "betterechogems",
+  "version": "${version}",
+
+  "name": "Better Echo Gems",
+  "description": "Aims to expand the uses for echo gems!",
+  "authors": [
+    "ianm1647"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/betterechogems/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ianm1647.betterechogems.BetterEchoGems"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
