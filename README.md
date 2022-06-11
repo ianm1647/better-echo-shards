@@ -1,1 +1,1 @@
-<p align="center"><img src="https://i.ibb.co/LzKM09W/Better-Echo-Gems.png" alt="Logo" width="400"></p>
+<p align="center"><img src="https://i.ibb.co/ZYYkPfy/Better-Echo-Shards.png" alt="Logo" width="400"></p>
