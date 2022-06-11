@@ -4,7 +4,7 @@
     "item": "betterechoshards:echorite_ingot"
   },
   "base": {
-    "item": "minecraft:diamond_leggings"
+    "item": "minecraft:netherite_leggings"
   },
   "result": {
     "item": "betterechoshards:echorite_legs"

@@ -4,7 +4,7 @@
     "item": "betterechoshards:echorite_ingot"
   },
   "base": {
-    "item": "minecraft:diamond_hoe"
+    "item": "minecraft:netherite_hoe"
   },
   "result": {
     "item": "betterechoshards:echorite_hoe"

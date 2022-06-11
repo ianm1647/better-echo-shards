@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "betterechoshards:block/echo_shard_block"
+	}
+}

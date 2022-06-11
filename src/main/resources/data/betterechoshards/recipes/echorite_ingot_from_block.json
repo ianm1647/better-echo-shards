@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterechoshards:echorite_block"
+    }
+  ],
+  "result": {
+    "item": "betterechoshards:echorite_ingot",
+    "count": 9
+  }
+}

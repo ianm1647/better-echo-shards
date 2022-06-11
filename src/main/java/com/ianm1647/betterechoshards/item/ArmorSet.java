@@ -12,6 +12,8 @@ import java.util.function.Consumer;
 
 public class ArmorSet {
 
+    //template from Mythic Metals
+
     private final ArmorItem helmet;
     private final ArmorItem chestplate;
     private final ArmorItem leggings;

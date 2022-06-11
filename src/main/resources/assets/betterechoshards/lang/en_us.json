@@ -11,5 +11,8 @@
   "item.betterechoshards.echorite_legs": "Echorite Leggings",
   "item.betterechoshards.echorite_feet": "Echorite Boots",
 
+  "block.betterechoshards.echo_shard_block": "Block of Echo Shards",
+  "block.betterechoshards.echorite_block": "Block of Echorite",
+
   "itemGroup.betterechoshards.group": "Better Echo Shards"
 }

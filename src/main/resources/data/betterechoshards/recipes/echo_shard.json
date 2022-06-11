@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterechoshards:echo_shard_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:echo_shard",
+    "count": 4
+  }
+}

@@ -4,7 +4,7 @@
     "item": "betterechoshards:echorite_ingot"
   },
   "base": {
-    "item": "minecraft:diamond_pickaxe"
+    "item": "minecraft:netherite_pickaxe"
   },
   "result": {
     "item": "betterechoshards:echorite_pickaxe"
