@@ -13,7 +13,7 @@
     "sources": "https://github.com/ianm1647/better-echo-shards"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/betterechoshards/icon.png",
 
   "environment": "*",

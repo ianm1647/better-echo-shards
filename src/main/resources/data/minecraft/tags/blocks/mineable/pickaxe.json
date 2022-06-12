@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "betterechoshards:echo_shard_block",
     "betterechoshards:echorite_block"
   ]
 }
