@@ -25,12 +25,12 @@ public class BetterEchoShards implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		item("echorite_ingot");
+		fireproofItem("echorite_ingot");
 		toolSet("echorite", ToolMaterials.ECHORITE);
 		armorSet("echorite", ArmorMaterials.ECHORITE);
 
 		block("echo_shard_block", new Block(blockSettings(Material.AMETHYST, 1.5F, 0, BlockSoundGroup.AMETHYST_BLOCK)));
-		block("echorite_block", new Block(blockSettings(Material.METAL, 55.0F, 1200.0F, BlockSoundGroup.NETHERITE)));
+		fireproofBlock("echorite_block", new Block(blockSettings(Material.METAL, 55.0F, 1200.0F, BlockSoundGroup.NETHERITE)));
 	}
 
 	private static void item(String name) {
@@ -38,14 +38,29 @@ public class BetterEchoShards implements ModInitializer {
 				new Item(new FabricItemSettings().group(GROUP)));
 	}
 
+	private static void fireproofItem(String name) {
+		Registry.register(Registry.ITEM, new Identifier(BetterEchoShards.MODID, name),
+				new Item(new FabricItemSettings().group(GROUP).fireproof()));
+	}
+
 	private static void block(String name, Block block) {
 		blockItem(name, block);
+		Registry.register(Registry.BLOCK, new Identifier(MODID, name), block);
+	}
+
+	private static void fireproofBlock(String name, Block block) {
+		fireproofBlockItem(name, block);
 		Registry.register(Registry.BLOCK, new Identifier(MODID, name), block);
 	}
 
 	private static void blockItem(String name, Block block) {
 		Registry.register(Registry.ITEM, new Identifier(MODID, name),
 				new BlockItem(block, new FabricItemSettings().group(GROUP)));
+	}
+
+	private static void fireproofBlockItem(String name, Block block) {
+		Registry.register(Registry.ITEM, new Identifier(MODID, name),
+				new BlockItem(block, new FabricItemSettings().group(GROUP).fireproof()));
 	}
 
 	private static FabricBlockSettings blockSettings(Material material, float hardness, float resistance, BlockSoundGroup sound) {

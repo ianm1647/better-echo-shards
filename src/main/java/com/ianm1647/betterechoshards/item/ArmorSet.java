@@ -22,6 +22,7 @@ public class ArmorSet {
     public ArmorItem baseArmorItem(ArmorMaterial material, EquipmentSlot slot, Consumer<Item.Settings> settingsProcessor) {
         final var settings = new Item.Settings().group(BetterEchoShards.GROUP);
         settingsProcessor.accept(settings);
+        settings.fireproof();
         return this.makeItem(material, slot, settings);
     }
 

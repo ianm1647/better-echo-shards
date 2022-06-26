@@ -18,9 +18,10 @@ public class ToolSet {
     private final ShovelItem shovel;
     private final HoeItem hoe;
 
-    private static Item.Settings createSettings(Consumer<Item.Settings> settingsProcessor) {
+    private Item.Settings createSettings(Consumer<Item.Settings> settingsProcessor) {
         final var settings = new Item.Settings().group(BetterEchoShards.GROUP);
         settingsProcessor.accept(settings);
+        settings.fireproof();
         return settings;
     }
 
